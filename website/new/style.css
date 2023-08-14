@@ -85,12 +85,14 @@ p{
 
 }
 
+
+
 .mt-40 {
     margin-top: 40px;
 }
 
 .justify-content-center {
-    justify-content: center!important;
+    justify-content: center;
 }
 
 .row-2 {
@@ -132,6 +134,21 @@ p{
 
 .col {
     flex: 1 0 0%;
+}
+
+.col-lg-4{
+    flex:0 0 auto;
+    width:33.33333333%;
+}
+
+.col-md-6{
+    flex:0 0 auto;
+    width:50%;
+}
+
+col-sm-12{
+    flex:0 0 auto;
+    width:100%;
 }
 
 .mb-70 {
@@ -178,8 +195,6 @@ h2,h3 {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-
-
 
 .header{
     background:radial-gradient(#fff,#fff);
